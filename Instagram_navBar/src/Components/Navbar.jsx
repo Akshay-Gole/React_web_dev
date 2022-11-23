@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/Navbar.scss'
 import insta from "../Img/insta.png"
-import { UilInstagram, UilEstate, UilSearch, UilCompass, UilCommentEdit, UilHeart, UilImagePlus, UilBars } from '@iconscout/react-unicons'
+import { UilInstagram, UilEstate, UilSearch, UilCompass, UilCommentEdit, UilHeart, UilImagePlus, UilUserCircle, UilBars } from '@iconscout/react-unicons'
 
 
 function Navbar() {
@@ -39,7 +39,7 @@ function Navbar() {
                     <p className='menu-name'>Create</p>
                 </div>
                 <div className="menu-items">
-                    < UilInstagram className="menu-icon" size="30" />
+                    < UilUserCircle  className="menu-icon" size="30" />
                     <p className='menu-name'>Profile</p>
                 </div>
             </div>
